@@ -45,6 +45,7 @@ ExecStart=/usr/bin/python3 $REPO_ROOT/streamer/stream_to_rtmp.py \
   --stream-key $STREAM_KEY \
   --input-format $INPUT_FORMAT \
   --encoder $ENCODER
+  --low-latency
 Restart=on-failure
 RestartSec=3
 
