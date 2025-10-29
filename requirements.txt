@@ -1,0 +1,4 @@
+# No mandatory Python dependencies.
+# Optional for client OpenCV fallback (install on non-Pi client only):
+# opencv-python
+
